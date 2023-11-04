@@ -7,13 +7,13 @@ import {localtime} from "./time/Timer"
 function App() {
   
   return (
-    <>
-      <h2 className='text-blue-500 font-bold text-xl' >
+      <>
+      <h2 className='text-black-600 font-bold text-xl' >
         Learn about redux toolkit</h2>
-       <h1 className='text-blue-600'>{localtime}</h1> 
+       <h1 className='text-black-800 text-xl font-bold' >{localtime}</h1> 
       <AddTodo />
       <Todos />
-    </>
+      </>
   )
 }
 

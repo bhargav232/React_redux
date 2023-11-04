@@ -11,7 +11,7 @@ function Todos() {
 
   return (
     <>
-    <div className='text-blue-500'>Todos List</div>
+    <div className='text-black-500 text-xl my-2'>Todos List...</div>
     <ul className="list-none">
         {todos.map((todo) => (
           <li
